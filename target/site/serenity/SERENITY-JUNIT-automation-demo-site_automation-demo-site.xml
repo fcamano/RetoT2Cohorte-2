@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Automation Demo Site" skipped="0" tests="1" time="1.01" timestamp="2020-06-16 11:30:37"><testcase name="Automation Demo Site"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.choucair.certification.academy.stepdefinitions.DemoSiteStepDefinitions.carlosQuiereAccederALaWebAutomationDemoSite(DemoSiteStepDefinitions.java:14)&#13;
+cucumber.runner.UnskipableStep.executeStep(UnskipableStep.java:22)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_features_sl_automatiza_registro_en_demo_site.html">Automatiza Registro En Demo Site</a></span>
+                > <span class="truncate-60"><a
+                    href="automatiza-registro-en-demo-site_automatizar-demo-site.html">automatizar Demo Site </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-06-2020 13:54</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Automatiza Registro En Demo Site</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                el usuario, debe ingresar la pagina Automation Demo Site y verificar que se registro
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="tag_scenario1.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="tag_stories.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">automatizar Demo Site
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="827f5b2457f0026cbc98126b2e15d6b6b2aa3aea9ac74bb03a91c8264d325bfe.png" title="Given Carlos quiere acceder a la Web Automation Demo Site" width="1366"/>
+                <img src="ff3ae8af88667f3c123f1bd745ee54587cd94406f79b4b56165d5bf90b81d27a.png" title="Carlos opens the Demo site page" width="1366"/>
+                <img src="89c6be99fa53d9911b6339358714a59fe99a9bd8f6da9c345580c54899312c13.png" title="When el realiza el registro en la p&aacute;gina
+| name | last | address | email | number | language | skill | contry | selecontry | year | month | day | password | confirpassword |
+| Faustino | Camano | Ciudad-Panama | test@choucairtesting.com | 1234567895 | Arabic | Mac | Panama | Japan | 1980 | September | 26 | 123456#Kk | 123456#Kk |" width="1366"/>
+                <img src="e44d4ad29206b72f3192cc90d9019f84869f3e100fcb10bc5ade38915dded181.png" title="Carlos enters 'Faustino' into nombre" width="1366"/>
+                <img src="92fed99cd3099ef90e813acd991ae1cb772eb0b069cb3d755c26c3529d69d1ed.png" title="Carlos enters 'Camano' into nombre" width="1366"/>
+                <img src="73a5b4262164835639c59fb6a4c2e841094e135f53e3306e210f04653d09e7a3.png" title="Carlos enters 'Ciudad-Panama' into nombre" width="1366"/>
+                <img src="8f9c134d4b534630b46cc59e151bad5999080a3c386492f16eab1b52caa5d2ce.png" title="Carlos enters 'test@choucairtesting.com' into CORREO" width="1366"/>
+                <img src="b024f904f039b115383820f7a07ae0249adb75eb10d9b0e285e19646b35678c1.png" title="Carlos enters '1234567895' into NUMERO" width="1366"/>
+                <img src="6088c970807cdbf45def4aad5d6628e256c76da9183b7ac74684a40253391ab1.png" title="Carlos clicks on where do we write the gender" width="1366"/>
+                <img src="325453dee4f5cb1af6de4ebd96ad6b3b5e09cad7f95986ebbb46332f59ff8724.png" title="Carlos clicks on Hobbies" width="1366"/>
+                <img src="0292a916ae24e2b1b88043329494dbbc4f40725e1315ac5d44b5272ef881f02f.png" title="Carlos enters '123456#Kk' into where do we write the password" width="1366"/>
+                <img src="1dac786aa5ef50708098fd1b3da57a10a8e9d82b843a88e827a05e5c598af288.png" title="Carlos enters '123456#Kk' into where do we write the confir password" width="1366"/>
+                <img src="89c6be99fa53d9911b6339358714a59fe99a9bd8f6da9c345580c54899312c13.png" title="Carlos clicks on where do we write the confir password" width="1366"/>
+                <img src="89c6be99fa53d9911b6339358714a59fe99a9bd8f6da9c345580c54899312c13.png" title="Then verifica que se carga la pantalla con texto Double Click on Edit Icon to EDIT the Table Row: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

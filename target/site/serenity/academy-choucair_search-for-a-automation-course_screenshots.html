@@ -87,7 +87,7 @@
             <span class="breadcrumbs">
                 <a href="index.html">Home</a>
                 > <span class="truncate-40"><a
-                    href="feature_academy_choucair.html">Academy Choucair</a></span>
+                    href="feature_features_sl_academy_choucair.html">Academy Choucair</a></span>
                 > <span class="truncate-60"><a
                     href="academy-choucair_search-for-a-automation-course.html">Search for a automation course </a></span>
                 > Screenshots
@@ -111,7 +111,7 @@
             <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-06-2020 09:11</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-06-2020 10:51</span>
     <br style="clear:left"/>
 </div>
 
@@ -127,7 +127,7 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="story-header-title">Academy Choucair</span>
                                     <span class="badge tag-badge" style="">Feature</span>
                                 </h3>
 
@@ -158,9 +158,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="error-color">Search for a automation course
+                                <span class="failing-color">Search for a automation course
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -179,8 +179,8 @@
     <div id="contenttilttle">
             <div class="screenshotFailure panel panel-danger">
 
-                        <div class="panel-heading title="Element click intercepted exception: The following error occurred: element click intercepted: Element (strong id='yui_3_17_2_1_1591711921026_20')...(/strong) is not clickable at point (1150, 24). Other element would receive the click: (div class='modal fade show' id='Ingresar' tabindex='-1' role='dialog' aria-labelledby='Ingresar' style='padding-right: 17px; display: block;')...(/div)">
-                            Element click intercepted exception: The following error occurred: element click intercepted: Element (strong id='yui_3_17_2_1_1591711921026_20')...(/strong) is not clickable at point (1150, 24). Other element would receive the click: (div c...
+                        <div class="panel-heading title="Element should be enabled exception: The following error occurred: Expected enabled element was not enabled">
+                            Element should be enabled exception: The following error occurred: Expected enabled element was not enabled
                         </div>
                 <div><!-- Stack trace -->
                     <button type="button" class="btn btn-danger" data-toggle="modal"
@@ -198,12 +198,12 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="stacktraceModalLabel">
-                                    org.openqa.selenium.ElementClickInterceptedException
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
                                 </h4>
                             </div>
                             <div class="modal-body">
                                     <h5>
-                                        <pre>The following error occurred: element click intercepted: Element &lt;strong id=&quot;yui_3_17_2_1_1591711921026_20&quot;&gt;...&lt;/strong&gt; is not clickable at point (1150, 24). Other element would receive the click: &lt;div class=&quot;modal fade show&quot; id=&quot;Ingresar&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;Ingresar&quot; style=&quot;padding-right: 17px; display: block;&quot;&gt;...&lt;/div&gt;<br>  (Session info: chrome=83.0.4103.97)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'USUARIO-PC', ip: '192.168.0.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_251'<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\USUARIO\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}<br>Session ID: 1838dbd67122382be1439c0f8ea17e18</pre>
+                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
                                     </h5>
                                     co.com.choucair.certification.academy.tasks.Login.performAs(Login.java
                                     :18) <br>
@@ -212,6 +212,23 @@
                                     cucumber.runner.Runner.runPickle(Runner.java
                                     :80) <br>
                             </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;nav-menu&quot;]/ul[2]/li/a/strong to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.choucair.certification.academy.tasks.Login.performAs(Login.java :18) <br>
+                                        co.com.choucair.certification.academy.stepdefinitions.ChoucairAcademyStepDefintions.thanBrandonWantsToLearAutomationAtTheAcademyChoucair(ChoucairAcademyStepDefintions.java :22) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                    </pre>
+                                </div>
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
@@ -224,16 +241,13 @@
 
 
                 <div class="panel-body">
-                    <a href="pagesource38940418903535652.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource3806150291240542376.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="9d22aabbe3a41c01afa9fdb25752dd1e3d0ef6e8da8b03b2564df73094054487.png" title="Brandon opens the Choucair academy page" width="1366"/>
-                <img src="9bbb9189b2fb1164e712806c352b3d7938540b6be34d328cf1c4d91bd278e249.png" title="Brandon clicks on button the shows us the form to login" width="1366"/>
-                <img src="a0f7ebb857e8027804cd0dfcdec181278865b998531897a1de59c8286a287eae.png" title="Brandon enters 'IngresaTuUsuario' into where do we write the user" width="1366"/>
-                <img src="f720e74cb40df14ddca1907b66b386beacfecb1c347c1d0bf28d888ae568761b.png" title="Brandon enters 'ingresaTuContrasena' into where do we write the password" width="1366"/>
-                <img src="e70301beb32af570989785e147270d7e5f2d18409164e8e9c62b8d2b35ed1442.png" title="Brandon clicks on button the shows us the form to login: <span class='error-color'>ERROR</span>" width="1366"/>
+                <img src="fa210374a949c64ee8dfa08a67d8bf6e0634930fc3ca92e34a963e46ea3287bc.png" title="Brandon opens the Choucair academy page" width="1366"/>
+                <img src="8cf88542189b4358cb5ba74187eee25f0edcf0da04326b98a86c29b6b6e04210.png" title="Brandon clicks on button the shows us the form to login: <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 
