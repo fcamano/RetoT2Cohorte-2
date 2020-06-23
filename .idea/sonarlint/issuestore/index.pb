@@ -17,8 +17,6 @@ Osrc/main/java/co/com/choucair/certification/academy/userinterface/DatoPage.java
 Ssrc/main/java/co/com/choucair/certification/academy/userinterface/DemoSitePage.java,c\5\c58205d4bf6bab84d06be9f5cf53082ee0fad1d4
 z
 Jsrc/main/java/co/com/choucair/certification/academy/model/RegitroPage.java,b\f\bf00b826563634f6b82ae732b2ee30160f968e41
-ê
-`src/test/java/co/com/choucair/certification/academy/stepdefinitions/DemoSiteStepDefinitions.java,f\3\f332b2ede0dd3dac58a459e50e8930f477a337b8
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 Å
@@ -35,3 +33,17 @@ Ssrc/main/java/co/com/choucair/certification/academy/interactions/SeleccCountry.
 Rsrc/main/java/co/com/choucair/certification/academy/interactions/SelectMounth.java,7\3\7332c93dbf623546b42f68eb3bc638f5127b86d8
 
 Osrc/main/java/co/com/choucair/certification/academy/interactions/SelectDay.java,c\b\cb4a5975952824e0393b80a87134cd34222d6039
+î
+dsrc/test/java/co/com/choucair/certification/academy/stepdefinitions/RegistroCitaStepDefinitions.java,5\8\5803fae2a5da54993b44ffecfbce3d3f6396228a
+y
+Isrc/main/java/co/com/choucair/certification/academy/tasks/LoginCitas.java,8\e\8e465ac35b4e42ae442d5b819123ee2b2ca46966
+Ñ
+Tsrc/main/java/co/com/choucair/certification/academy/userinterface/RegitroDoctor.java,2\b\2b52abb6b99d2c13837b7a0bd64da6b18fe0960f
+Å
+Qsrc/main/java/co/com/choucair/certification/academy/userinterface/DatoDoctor.java,0\0\00d5b61571af4f26cd130c9f406698a153131d31
+ñ
+fsrc/test/java/co/com/choucair/certification/academy/stepdefinitions/RegistroDoctorStepDefinitions.java,1\b\1b94b9e6fdd675e060b2c28bca2ed8c6094ec57d
+
+Osrc/main/java/co/com/choucair/certification/academy/userinterface/DatoCita.java,0\5\05006fe6f51936868483c177a257c2746bad8d07
+z
+Jsrc/main/java/co/com/choucair/certification/academy/model/RegitroCita.java,0\b\0beaba7b6136040c2bc3140d7b624396e4c56477

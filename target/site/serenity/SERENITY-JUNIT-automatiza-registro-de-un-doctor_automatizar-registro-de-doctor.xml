@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="automatiza registro de un doctor" skipped="0" tests="1" time="18.26" timestamp="2020-06-20 10:37:04"><testcase name="automatizar registro de doctor"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=83.0.4103.106)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'USUARIO-PC', ip: '192.168.0.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\USUARIO\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0d798da54b2aef59a32de0a6fe5a1a47&#10;*** Element info: {Using=xpath, value=//div[@id='page-wrapper']/div/div[3]/div/div[4]/select}" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'USUARIO-PC', ip: '192.168.0.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\USUARIO\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d798da54b2aef59a32de0a6fe5a1a47
+*** Element info: {Using=xpath, value=//div[@id='page-wrapper']/div/div[3]/div/div[4]/select}</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.106)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'USUARIO-PC', ip: '192.168.0.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\USUARIO\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0d798da54b2aef59a32de0a6fe5a1a47
+*** Element info: {Using=xpath, value=//div[@id='page-wrapper']/div/div[3]/div/div[4]/select}&#13;
+co.com.choucair.certification.academy.interactions.SeleccionarIdentificacion.performAs(SeleccionarIdentificacion.java:23)&#13;
+co.com.choucair.certification.academy.tasks.Login.performAs(Login.java:25)&#13;
+co.com.choucair.certification.academy.stepdefinitions.RegistroDoctorStepDefinitions.realizaElRegistroDelMismoEnElAplicativoDeAdministraciónDeHospitales(RegistroDoctorStepDefinitions.java:29)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
